@@ -1,0 +1,8 @@
+<h3>
+    Welcome to list of products
+  </h3>
+<label>What do you want to buy?</label>
+<input #newProduct>
+<input #quantity>
+<br>
+<button (click)="updateCart(newProduct.value, quantity.value)">Buy Product?</button>

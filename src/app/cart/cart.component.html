@@ -1,0 +1,9 @@
+<p>
+    Welcome to the cart
+</p><ul>
+    <li *ngFor="let product of selectedProducts">
+        So today you are buying - {{product.productName}} of {{product.quantity}}
+    </li>
+</ul>
+
+<button (click)="submitCart()">Submit Cart</button>
